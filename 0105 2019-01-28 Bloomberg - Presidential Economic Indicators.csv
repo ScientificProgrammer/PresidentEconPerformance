@@ -1,0 +1,106 @@
+"Presidents","Metrics","Values"
+"Clinton","S&P 500 Index",1
+"Obama","S&P 500 Index",3
+"Reagan","S&P 500 Index",5
+"H.W. Bush","S&P 500 Index",2
+"Carter","S&P 500 Index",6
+"Trump","S&P 500 Index",4
+"W. Bush","S&P 500 Index",7
+"Clinton","Gap between U.S. and global stocks",2
+"Obama","Gap between U.S. and global stocks",3
+"Reagan","Gap between U.S. and global stocks",7
+"H.W. Bush","Gap between U.S. and global stocks",1
+"Carter","Gap between U.S. and global stocks",6
+"Trump","Gap between U.S. and global stocks",4
+"W. Bush","Gap between U.S. and global stocks",5
+"Clinton","Nonfarm payrolls",2
+"Obama","Nonfarm payrolls",5
+"Reagan","Nonfarm payrolls",3
+"H.W. Bush","Nonfarm payrolls",6
+"Carter","Nonfarm payrolls",1
+"Trump","Nonfarm payrolls",4
+"W. Bush","Nonfarm payrolls",7
+"Clinton","Disposable income per capita",2
+"Obama","Disposable income per capita",6
+"Reagan","Disposable income per capita",1
+"H.W. Bush","Disposable income per capita",7
+"Carter","Disposable income per capita",4
+"Trump","Disposable income per capita",3
+"W. Bush","Disposable income per capita",5
+"Clinton","Debt-to-income ratio*",7
+"Obama","Debt-to-income ratio*",1
+"Reagan","Debt-to-income ratio*",6
+"H.W. Bush","Debt-to-income ratio*",3
+"Carter","Debt-to-income ratio*",1
+"Trump","Debt-to-income ratio*",4
+"W. Bush","Debt-to-income ratio*",5
+"Clinton","Gross domestic product",1
+"Obama","Gross domestic product",7
+"Reagan","Gross domestic product",2
+"H.W. Bush","Gross domestic product",4
+"Carter","Gross domestic product",2
+"Trump","Gross domestic product",5
+"W. Bush","Gross domestic product",6
+"Clinton","Deficit as share of GDP*",1
+"Obama","Deficit as share of GDP*",2
+"Reagan","Deficit as share of GDP*",4
+"H.W. Bush","Deficit as share of GDP*",5
+"Carter","Deficit as share of GDP*",3
+"Trump","Deficit as share of GDP*",6
+"W. Bush","Deficit as share of GDP*",7
+"Clinton","Home equity",5
+"Obama","Home equity",2
+"Reagan","Home equity",3
+"H.W. Bush","Home equity",6
+"Carter","Home equity",1
+"Trump","Home equity",4
+"W. Bush","Home equity",7
+"Clinton","Bond performance",3
+"Obama","Bond performance",5
+"Reagan","Bond performance",1
+"H.W. Bush","Bond performance",2
+"Carter","Bond performance",6
+"Trump","Bond performance",7
+"W. Bush","Bond performance",4
+"Clinton","Dollar value",2
+"Obama","Dollar value",1
+"Reagan","Dollar value",3
+"H.W. Bush","Dollar value",4
+"Carter","Dollar value",7
+"Trump","Dollar value",5
+"W. Bush","Dollar value",6
+"Clinton","Manufacturing jobs",3
+"Obama","Manufacturing jobs",5
+"Reagan","Manufacturing jobs",4
+"H.W. Bush","Manufacturing jobs",6
+"Carter","Manufacturing jobs",2
+"Trump","Manufacturing jobs",1
+"W. Bush","Manufacturing jobs",7
+"Clinton","Auto sales",3
+"Obama","Auto sales",1
+"Reagan","Auto sales",2
+"H.W. Bush","Auto sales",5
+"Carter","Auto sales",7
+"Trump","Auto sales",4
+"W. Bush","Auto sales",6
+"Clinton","Hourly wages",2
+"Obama","Hourly wages",1
+"Reagan","Hourly wages",5
+"H.W. Bush","Hourly wages",6
+"Carter","Hourly wages",7
+"Trump","Hourly wages",4
+"W. Bush","Hourly wages",3
+"Clinton","Productivity",3
+"Obama","Productivity",5
+"Reagan","Productivity",4
+"H.W. Bush","Productivity",1
+"Carter","Productivity",7
+"Trump","Productivity",6
+"W. Bush","Productivity",2
+"Clinton","Overall Rank",1
+"Obama","Overall Rank",2
+"Reagan","Overall Rank",3
+"H.W. Bush","Overall Rank",4
+"Carter","Overall Rank",5
+"Trump","Overall Rank",6
+"W. Bush","Overall Rank",7
