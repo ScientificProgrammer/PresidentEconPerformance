@@ -6,7 +6,7 @@ Politicians frequently cite positive economic indicators while ignoring negative
 
 I was inpsired to create this project after reading a [Bloomberg.com article](https://www.bloomberg.com/opinion/articles/2019-01-28/trump-economy-lags-clinton-s-obama-s-reagan-s-and-even-carter-s) [1] that ranked the economic performance of 7 different US presidents' administrations. The article reported an **overall rank** that was computed as an equally weighted average of each president's rank on 14 different economic measures.
 
-![Figure: All Performance Metrics](./images/Fig - Trellis Plot - All Perf Metrics.png)
+![Figure: All Performance Metrics](https://willitreplicate.com/github/PresidentEconPerformance/images/Fig%20-%20Trellis%20Plot%20-%20All%20Perf%20Metrics.png)
 
 ## Methodology
 
