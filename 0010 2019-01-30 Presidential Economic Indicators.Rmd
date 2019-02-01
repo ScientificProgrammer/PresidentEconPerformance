@@ -29,13 +29,16 @@ output:
 ## Bond Performance Ranks for Seven US Presidents
 ```{r}
 <<PlotBondPerfSetup>>
-<<PlotBondPerfBarChartCoorFlip>>
+<<PlotBondPerfScatterPlot>>
+#<<PlotBondPerfBarChart>>  
+#<<PlotBondPerfBarChartCoorFlip>>
 ```
 
-## Plot Block 6
+## Block 6 - Plot Overall Performance Ratings
 ```{r}
 <<PlotOverallRankings>>
 ```
+
 
 ## Block 7
 ```{r}
@@ -69,27 +72,50 @@ output:
 ```{r Appendix, echo=TRUE, eval=FALSE}
 # Initialization Setup
 <<Initialization>>
+
 # Setup for plotting all economic indicators
 <<PlotAllEconIndSetup>>
+
 # Plot all economic indicators
 <<PlotAllEconIndScatterPlot>>
+
 # Setup for bond performance charts
 <<PlotBondPerfSetup>>
+
+
 # Bond performance chart  
-<<PlotBondPerfBarChartCoorFlip>>
+<<PlotBondPerfScatterPlot>>
+
 # Plot the overall rankings
 <<PlotOverallRankings>>
+
 # Setup to plot pairwise correlations  
 <<PairwisePlotsCorrSetup>>
+
 # Plot pairwise correlations for all 14 metrics + overall rank  
 <<PairwiseCorrPlusOverallRank>>
+
 # Correlation Table - Overall Ranks  
 <<PairwiseCorrTable1>>
+
 # Correlation Table - Not including overall rank  
 <<PairwiseCorrTable2>>
+
 # Pairwise Plots - Correlation Plot 1  
 <<PairwisePlotsCorrPlot1>>
+
 # Pairwise Plots - Correlation Plot 2    
 <<PairwisePlotsCorrPlot2>>
+```
+
+### Raw Data
+#### "0105 2019-01-28 Bloomberg - Presidential Economic Indicators.csv"
+```{r}
+kableExtra::kable(dat01) %>% 
+  kableExtra::kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    full_width = FALSE,
+    position = "left"
+  )
 ```
 
