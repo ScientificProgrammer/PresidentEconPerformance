@@ -2,7 +2,7 @@
 
 The objective of [ScientificProgrammer/PresidentEconPerformance](https://github.com/ScientificProgrammer/PresidentEconPerformance) is to perform comprehensive, quantitative assessments of US economic performance using well-established statistical techniques with publicly available, objectively measured data.
 
-Politicians frequently cite positive economic indicators while ignoring negative ones. US stock market performance is often used as a proxy for economic performance. Although the stock market is a key key component of the US economy, and, its value can be measured very objectively, it is just one component of the US economy.
+Politicians frequently cite positive economic indicators while ignoring negative ones. US stock market performance is often used as a proxy for economic performance. Although the stock market is a key component of the US economy, and, its value can be measured very objectively, it is just one component of the US economy.
 
 I was inpsired to create this project after reading a [Bloomberg.com article](https://www.bloomberg.com/opinion/articles/2019-01-28/trump-economy-lags-clinton-s-obama-s-reagan-s-and-even-carter-s) [1] that ranked the economic performance of 7 different US presidents' administrations. The article reported an **overall rank** that was computed as an equally weighted average of each president's rank on 14 different economic measures.
 
