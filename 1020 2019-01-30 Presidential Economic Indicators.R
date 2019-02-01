@@ -92,3 +92,10 @@ ggplot(dat03b, aes(fill = Presidents)) +
     axis.title.y = element_text(margin = margin(0, 20, 0, 0)),
     axis.text = element_text(size = 14)
   )
+
+## @knitr TablePresSortedByOverallRank
+kableExtra::kable(dat03b %>% arrange(overall_rank)) %>%
+  kableExtra::kable_styling(
+    bootstrap_options = c("striped",
+                          "condensed"),
+    position = "left", full_width = FALSE)

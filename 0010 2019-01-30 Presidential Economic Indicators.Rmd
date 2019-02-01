@@ -34,9 +34,14 @@ output:
 #<<PlotBondPerfBarChartCoorFlip>>
 ```
 
-## Block 6 - Plot Overall Performance Ratings
+## Block 6a - Plot Overall Performance Ratings
 ```{r}
 <<PlotOverallRankings>>
+```
+
+## Block 6b - View a table of Overall Rankings for 7 Presidents
+```{r}
+<<TablePresSortedByOverallRank>>
 ```
 
 
@@ -82,12 +87,14 @@ output:
 # Setup for bond performance charts
 <<PlotBondPerfSetup>>
 
-
 # Bond performance chart  
 <<PlotBondPerfScatterPlot>>
 
 # Plot the overall rankings
 <<PlotOverallRankings>>
+
+# View a table of overall rankings for each POTUS  
+<<TablePresSortedByOverallRank>>
 
 # Setup to plot pairwise correlations  
 <<PairwisePlotsCorrSetup>>
