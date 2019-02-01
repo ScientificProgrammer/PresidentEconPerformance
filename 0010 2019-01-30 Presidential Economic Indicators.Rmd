@@ -1,0 +1,95 @@
+---
+title: "R Notebook"
+author: "Eric Milgram, PhD"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r Setup, echo=FALSE}
+  knitr::read_chunk("1000 2019-01-30 Presidential Economic Indicators.R")
+  knitr::read_chunk("1010 2019-01-30 Presidential Economic Indicators.R")
+  knitr::read_chunk("1020 2019-01-30 Presidential Economic Indicators.R")
+  knitr::read_chunk("1030 2019-01-30 Presidential Economic Indicators.R")
+  
+  knitr::opts_chunk$set(include = TRUE, eval = TRUE)
+  knitr::opts_chunk$set(echo = FALSE, message = FALSE, results = 'hold')
+  knitr::opts_chunk$set(fig.width = 10, fig.height = 10)
+```
+
+
+## Trellis Plot - Economic Indicator Rank vs President
+```{r}
+  <<Initialization>>
+  <<PlotAllEconIndSetup>>
+    <<PlotAllEconIndScatterPlot>>
+```
+
+
+## Bond Performance Ranks for Seven US Presidents
+```{r}
+<<PlotBondPerfSetup>>
+<<PlotBondPerfBarChartCoorFlip>>
+```
+
+## Plot Block 6
+```{r}
+<<PlotOverallRankings>>
+```
+
+## Block 7
+```{r}
+<<PairwisePlotsCorrSetup>>
+<<PairwiseCorrPlusOverallRank>>
+```
+
+## Block 8a
+```{r}
+<<PairwiseCorrTable1>>
+```
+
+
+## Block 8b
+```{r}
+<<PairwiseCorrTable2>>
+```
+
+## Block 9
+```{r}
+<<PairwisePlotsCorrPlot1>>
+```
+
+## Block 10
+```{r}
+<<PairwisePlotsCorrPlot2>>
+```
+
+## Appendices
+#### Full Source Code
+```{r Appendix, echo=TRUE, eval=FALSE}
+# Initialization Setup
+<<Initialization>>
+# Setup for plotting all economic indicators
+<<PlotAllEconIndSetup>>
+# Plot all economic indicators
+<<PlotAllEconIndScatterPlot>>
+# Setup for bond performance charts
+<<PlotBondPerfSetup>>
+# Bond performance chart  
+<<PlotBondPerfBarChartCoorFlip>>
+# Plot the overall rankings
+<<PlotOverallRankings>>
+# Setup to plot pairwise correlations  
+<<PairwisePlotsCorrSetup>>
+# Plot pairwise correlations for all 14 metrics + overall rank  
+<<PairwiseCorrPlusOverallRank>>
+# Correlation Table - Overall Ranks  
+<<PairwiseCorrTable1>>
+# Correlation Table - Not including overall rank  
+<<PairwiseCorrTable2>>
+# Pairwise Plots - Correlation Plot 1  
+<<PairwisePlotsCorrPlot1>>
+# Pairwise Plots - Correlation Plot 2    
+<<PairwisePlotsCorrPlot2>>
+```
+

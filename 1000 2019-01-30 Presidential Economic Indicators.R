@@ -87,4 +87,3 @@ subtitles[3] <- "*Annual percentage-point change"
 plot_subtitle <- paste(subtitles, collapse = "\n")
 plot_caption <- "Data Source:\n    Ranking the Trump Economy by Matthew A. Winkler\n    Bloomberg.com\n    2019-01-28" 
 color_brewer_palette = "RdYlGn"
-
